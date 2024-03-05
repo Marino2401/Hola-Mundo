@@ -1,0 +1,47 @@
+@startuml Mascota
+class Mascota
+{
+    -pelo:Pelo
+    +comer(Alimento)
+}
+Class Juguetes 
+Class Alimento
+Class Emociones
+Class Accesorios
+
+Package Mascota{
+    Conejo
+    Perro
+    Pinguino
+    Gato
+}
+Package Juguetes{
+    Pelota
+    Puntero Laser 
+    Palo 
+    peluche
+    Patineta
+}
+Package Alimento{
+    Verduras
+    Pescado
+    Croquetas
+    Frutas
+}
+Package Emociones{
+    Enojado
+    Feliz 
+    Triste 
+    Asustado
+    Cansado 
+    Ambriento
+    Deshagrado
+}
+Package Accesorios{
+    Ropita
+    Sombrerito
+    Botitas
+    Collar 
+    
+
+}
